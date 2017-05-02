@@ -1,4 +1,4 @@
-# BrowserStack-TestNG
+#TestNG-Java-Local
 
 [TestNG](http://testng.org) Test project to test sample scenarios using Java, TestNG.
 
