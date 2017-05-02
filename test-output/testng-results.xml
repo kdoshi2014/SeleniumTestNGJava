@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel test suite" duration-ms="46434" started-at="2017-04-29T11:00:25Z" finished-at="2017-04-29T11:01:12Z">
+    <groups>
+    </groups>
+    <test name="Safari Test" duration-ms="21071" started-at="2017-04-29T11:00:25Z" finished-at="2017-04-29T11:00:47Z">
+      <class name="secondtestngpackage.TestNGLocal">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:secondtestngpackage.TestNGLocal@464bee09]" name="openBrowser" is-config="true" duration-ms="1711" started-at="2017-04-29T16:30:25Z" finished-at="2017-04-29T16:30:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login_TestCase()[pri:0, instance:secondtestngpackage.TestNGLocal@464bee09]" name="login_TestCase" duration-ms="19087" started-at="2017-04-29T16:30:27Z" finished-at="2017-04-29T16:30:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_TestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:secondtestngpackage.TestNGLocal@464bee09]" name="closeBrowser" is-config="true" duration-ms="135" started-at="2017-04-29T16:30:46Z" finished-at="2017-04-29T16:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- secondtestngpackage.TestNGLocal -->
+    </test> <!-- Safari Test -->
+    <test name="Firefox Test" duration-ms="24329" started-at="2017-04-29T11:00:25Z" finished-at="2017-04-29T11:00:50Z">
+      <class name="secondtestngpackage.TestNGLocal">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:secondtestngpackage.TestNGLocal@59f99ea]" name="openBrowser" is-config="true" duration-ms="5892" started-at="2017-04-29T16:30:25Z" finished-at="2017-04-29T16:30:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login_TestCase()[pri:0, instance:secondtestngpackage.TestNGLocal@59f99ea]" name="login_TestCase" duration-ms="18191" started-at="2017-04-29T16:30:31Z" finished-at="2017-04-29T16:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_TestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:secondtestngpackage.TestNGLocal@59f99ea]" name="closeBrowser" is-config="true" duration-ms="235" started-at="2017-04-29T16:30:50Z" finished-at="2017-04-29T16:30:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- secondtestngpackage.TestNGLocal -->
+    </test> <!-- Firefox Test -->
+    <test name="Chrome Test" duration-ms="46434" started-at="2017-04-29T11:00:25Z" finished-at="2017-04-29T11:01:12Z">
+      <class name="secondtestngpackage.TestNGLocal">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:secondtestngpackage.TestNGLocal@77cd7a0]" name="openBrowser" is-config="true" duration-ms="2538" started-at="2017-04-29T16:30:25Z" finished-at="2017-04-29T16:30:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login_TestCase()[pri:0, instance:secondtestngpackage.TestNGLocal@77cd7a0]" name="login_TestCase" duration-ms="43729" started-at="2017-04-29T16:30:28Z" finished-at="2017-04-29T16:31:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_TestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:secondtestngpackage.TestNGLocal@77cd7a0]" name="closeBrowser" is-config="true" duration-ms="157" started-at="2017-04-29T16:31:12Z" finished-at="2017-04-29T16:31:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- secondtestngpackage.TestNGLocal -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Parallel test suite -->
+</testng-results>

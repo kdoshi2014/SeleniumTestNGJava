@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]">
+  <test name="Firefox Test(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="secondtestngpackage.TestNGLocal">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="login_TestCase"/>
+        </methods>
+      </class> <!-- secondtestngpackage.TestNGLocal -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+  <test name="Chrome Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="secondtestngpackage.TestNGLocal">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+          <include name="login_TestCase"/>
+        </methods>
+      </class> <!-- secondtestngpackage.TestNGLocal -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->
